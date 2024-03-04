@@ -1,0 +1,157 @@
+.homebanner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: var(--primaryColor); */
+}
+
+.homebannerFlex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homebannerFlexLeft {
+    width: 66%;
+    height: 100%;
+
+}
+
+.homebannerFlexRight {
+    width: 34%;
+    height: 100%;
+    background-color: var(--primaryColor);
+    position: relative;
+
+}
+
+.homebannerFlexRightImg {
+    width: 340px;
+    height: 500px;
+    position: absolute;
+    left: -25%;
+    top: 20%;
+    position: relative;
+}
+
+.homebannerFlexRightImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play {
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    left: 0%;
+}
+
+.pause {
+    position: absolute;
+    color: var(--white);
+    font-size: 43px;
+    bottom: 4%;
+    right: 5%;
+    z-index: 6;
+}
+
+.bannerShade {
+    width: 330px;
+    height: 900px;
+    background-color: #23404B66;
+    position: absolute;
+    left: 120%;
+    top: -50%;
+    transform: rotate(-18deg);
+}
+
+.Social {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    color: var(--white);
+}
+
+.homebannerFlexLeftInner {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.homebannerFlexLeftHead {
+    width: 58%;
+    text-align: start;
+}
+
+.homebannerFlexLeftHead h1 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 50px;
+    font-family: var(--primaryFont);
+}
+
+.homebannerFlexLeftInner p {
+    width: 70%;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.headSpan {
+    color: var(--primaryColor);
+    margin-right: 10px;
+}
+
+.certificateImg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.certificateImg img {
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.certificate h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.homebannerFlexLeftFooter {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    padding-left: 0px;
+    text-align: start;
+}
+
+.homebannerFlexLeftFoot {
+    margin-right: 25px;
+    padding-right: 25px;
+    border-right: 1px solid var(--borderColor);
+}
+
+.homebannerFlexLeftFooter h5 {
+    font-size: 19px;
+    margin-bottom: 15px;
+}

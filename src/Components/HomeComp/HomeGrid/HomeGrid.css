@@ -1,0 +1,233 @@
+.homeGrid {
+    width: 88%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.homeGridHead {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.homeGridHead h1 {
+    font-size: 50px;
+    font-family: var();
+}
+
+.homeGridHead p {
+    width: 70%;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.gridOne {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+.gridOneLeft {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    background-color: var(--cardColor);
+}
+
+.gridOneLeft h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.gridOneLeft p {
+    width: 40%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.gridOneLeft button {
+    padding: 10px 20px;
+    border: 1px solid #FF7383;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.gridOneLeft img {
+    /* height: 200px; */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.gridOneRight {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    background-color: var(--cardColor);
+}
+
+.gridOneRight h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.gridOneRight p {
+    width: 40%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.gridOneRight button {
+    padding: 10px 20px;
+    border: 1px solid #FF7383;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.gridOneRight img {
+    /* height: 200px; */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.gridTwo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    column-gap: 20px;
+}
+
+.gridTwoLeft {
+    width: 100%;
+    height: 290px;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    background-color: var(--cardColor);
+}
+
+.gridTwoLeft h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.gridTwoLeft p {
+    width: 70%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.gridTwoLeft button {
+    padding: 10px 20px;
+    border: 1px solid #FF7383;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.gridTwoLeft img {
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.gridTwoCenter {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    background-color: var(--cardColor);
+}
+
+.gridTwoCenter h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.gridTwoCenter p {
+    width: 70%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.gridTwoCenter button {
+    padding: 10px 20px;
+    border: 1px solid #FF7383;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.gridTwoCenter img {
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.gridTwoRight {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    background-color: var(--cardColor);
+}
+
+.gridTwoRight h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.gridTwoRight p {
+    width: 70%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.gridTwoRight button {
+    padding: 10px 20px;
+    border: 1px solid #FF7383;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.gridTwoRight img {
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

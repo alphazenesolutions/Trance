@@ -1,0 +1,99 @@
+.footer {
+    width: 100%;
+    height: 280px;
+}
+
+.innerFooter {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 30px;
+    padding-right: 15px;
+    background-color: var(--primaryColor);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.foot1 {
+    width: 18%;
+    text-align: start;
+}
+
+.foot1 h1 {
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.foot1 p {
+    font-size: 13px;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.foot2 {
+    width: 18%;
+    text-align: start;
+}
+
+.foot2 h1 {
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.foot2 p {
+    font-size: 13px;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.foot3 {
+    width: 30%;
+    text-align: start;
+}
+
+.foot3 h1 {
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.foot3 p {
+    font-size: 13px;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.foot4 {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    line-height: 2;
+    color: var(--white);
+
+}
+
+.footer h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}

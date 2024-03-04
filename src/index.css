@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --primaryColor: #29505E;
+  --primaryFont: "nunito";
+  --secondayFont: "";
+  --secondaryColor: #f4f4f5;
+  --borderColor: #dbdbdb;
+  --cardColor: #F9F9FA;
+
+}
+
+.sectionWidth {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border {
+  border-radius: 10px;
+  height: 87%;
+  background-color: var(--cardColor);
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
