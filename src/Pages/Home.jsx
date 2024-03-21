@@ -4,6 +4,8 @@ import HomeSwiper from "../Components/HomeComp/HomeSwiper/HomeSwiper";
 import HomeGrid from "../Components/HomeComp/HomeGrid/HomeGrid";
 import HomeExpand from "../Components/HomeComp/Mission/Mission";
 import HomePentGrid from "../Components/HomeComp/HomePentGrid/HomePentGrid";
+import GuideLine from "../Components/HomeComp/GuideLine/GuideLine";
+import Diseases from "../Components/HomeComp/Diseases/Diseases";
 
 const Home = () => {
   return (
@@ -11,8 +13,10 @@ const Home = () => {
       <HomeBanner />
       <HomeSwiper />
       <HomeGrid />
-      {/* <HomeExpand /> */}
+      <HomeExpand />
       <HomePentGrid />
+      <Diseases />
+      <GuideLine />
     </div>
   );
 };

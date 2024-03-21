@@ -11,12 +11,14 @@
 .heading h1 {
     font-size: 50px;
     font-family: var();
+    font-family: var(--secondayFont);
+    font-weight: 400;
 }
 
 .heading p {
     width: 70%;
     font-size: 16px;
     text-align: left;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 50px;
 }

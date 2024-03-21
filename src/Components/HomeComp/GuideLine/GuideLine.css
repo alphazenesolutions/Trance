@@ -1,0 +1,34 @@
+.guideLineContainerFlex {
+    /* height: 400px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* .guideLineContainerFlexLeft {} */
+
+.guideLineContainerFlexLeft img {
+    transform: translateY(25px);
+}
+
+.guideLineContainerFlexRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.guideLineContainerFlexRight h1 {
+    margin-bottom: 20px;
+    font-family: var(--secondayFont);
+    font-weight: 400;
+    font-size: 55px;
+}
+
+.guideLineContainerFlexRight p {
+    line-height: 2;
+    font-weight: 400;
+}

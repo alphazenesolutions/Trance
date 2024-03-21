@@ -1,0 +1,116 @@
+.diseaseContainer {}
+
+.diseaseContainerHead {
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.diseaseContainerHead h1 {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: var(--secondayFont);
+    margin-bottom: 15px;
+}
+
+.diseaseContainerHead p {}
+
+.diseaseContainerFlex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.diseaseContainerFlexLeft {
+    width: 50%;
+    padding: 25px;
+}
+
+.diseaseContainerFlexLeftHead {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.diseaseTabInactive {
+    padding: 15px 20px;
+    font-size: 25px;
+    font-family: var(--secondayFont);
+    font-weight: 500;
+    border-bottom: 2px solid rgb(210, 208, 208);
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.diseaseTabActive {
+    padding: 15px 20px;
+    font-size: 25px;
+    font-family: var(--secondayFont);
+    font-weight: 500;
+    border-bottom: 2px solid var(--primaryColor);
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.diseaseInactive {
+    font-size: 14px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: var(--primaryFont);
+    background-color: var(--diseaseColor);
+    cursor: pointer;
+}
+
+.diseaseActive {
+    font-size: 14px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: var(--white);
+    font-family: var(--primaryFont);
+    background-color: var(--primaryColor);
+}
+
+.diseaseContainerFlexLeftBody {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+
+.diseaseContainerFlexRight {
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    border-left: 1px solid #333333;
+}
+
+
+.diseaseContainerFlexRight h1 {
+    font-size: 40px;
+    font-family: var(--secondayFont);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.diseaseContainerFlexRight p {
+    line-height: 1.7;
+}

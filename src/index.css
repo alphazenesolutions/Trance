@@ -22,8 +22,9 @@ code {
   --white: #ffffff;
   --primaryColor: #29505E;
   --primaryFont: "nunito";
-  --secondayFont: "";
+  --secondayFont: "Source Serif 4, serif";
   --secondaryColor: #f4f4f5;
+  --diseaseColor: #FAFAFA;
   --borderColor: #dbdbdb;
   --cardColor: #F9F9FA;
 
