@@ -59,13 +59,13 @@
 }
 
 .bannerShade {
-    width: 330px;
-    height: 900px;
+    width: 500px;
+    height: 1000px;
     background-color: #23404B66;
     position: absolute;
-    left: 120%;
-    top: -50%;
-    transform: rotate(-18deg);
+    left: 128%;
+    top: -63%;
+    transform: rotate(-23deg);
 }
 
 .Social {

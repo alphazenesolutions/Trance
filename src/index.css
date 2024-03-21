@@ -30,7 +30,7 @@ code {
 }
 
 .sectionWidth {
-  max-width: 1300px;
+  width: 88%;
   margin-left: auto;
   margin-right: auto;
 }

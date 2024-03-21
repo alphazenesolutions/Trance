@@ -1,12 +1,9 @@
 .footer {
-    width: 100%;
     height: 280px;
 }
 
 .innerFooter {
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     padding: 40px 30px;
     padding-right: 15px;
     background-color: var(--primaryColor);

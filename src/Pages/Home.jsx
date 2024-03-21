@@ -2,7 +2,7 @@ import React from "react";
 import HomeBanner from "../Components/HomeComp/HomeBanner/HomeBanner";
 import HomeSwiper from "../Components/HomeComp/HomeSwiper/HomeSwiper";
 import HomeGrid from "../Components/HomeComp/HomeGrid/HomeGrid";
-import HomeExpand from "../Components/HomeComp/HomeExpand/HomeExpand";
+import HomeExpand from "../Components/HomeComp/Mission/Mission";
 import HomePentGrid from "../Components/HomeComp/HomePentGrid/HomePentGrid";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <HomeBanner />
       <HomeSwiper />
       <HomeGrid />
-      <HomeExpand />
+      {/* <HomeExpand /> */}
       <HomePentGrid />
     </div>
   );

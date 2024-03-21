@@ -1,42 +1,61 @@
 import React from "react";
 import "./HomeGrid.css";
-import gridOne from "../../../assests/gridOne.png";
-import gridTwo from "../../../assests/gridTwo.png";
+
+import cardOneImg from "../../../assests/gridOne.png";
+import cardTwoImg from "../../../assests/gridTwo.png";
+import CardOne from "../../Reusable/CardOne/CardOne";
+import Heading from "../../Reusable/Heading/Heading";
 
 const HomeGrid = () => {
   return (
     <div>
-      <div className="homeGrid">
-        <div className="homeGridHead">
-          <h1>Lorem Ipsum Text</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley.
-          </p>
-        </div>
+      <div className="homeGrid sectionWidth">
+        <Heading />
         <div className="gridOne">
-          <div className="gridOneLeft">
-            <h1>Lorem Ipsum Therapy</h1>
-            <p>
-              Lorem Ipsum is simply dummy of printing and typesetting industry.g
-              and typesetting industry. Lorem Ipsum has been.
-            </p>
-            <button>Lorem Ipsum text</button>
-            <img src={gridOne} alt="" />
-          </div>
-          <div className="gridOneRight">
-            <h1>Lorem Ipsum Therapy</h1>
-            <p>
-              Lorem Ipsum is simply dummy of printing and typesetting industry.g
-              and typesetting industry. Lorem Ipsum has been.
-            </p>
-            <button>Lorem Ipsum text</button>
-            <img src={gridTwo} alt="" />
-          </div>
+          <CardOne
+            Heading="Lorem Ipsum Therapy"
+            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            button="Lorem Ipsum Text"
+            descClass="cardOnePara"
+            classImage="cardOneImg"
+            image={cardOneImg}
+          />
+          <CardOne
+            Heading="Lorem Ipsum Therapy"
+            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            button="Lorem Ipsum Text"
+            descClass="cardOnePara"
+            classImage="cardOneImg"
+            image={cardTwoImg}
+          />
         </div>
         <div className="gridTwo">
-          <div className="gridTwoLeft">
+          <CardOne
+            Heading="Lorem Ipsum Therapy"
+            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            button="Lorem Ipsum Text"
+            descClass="cardOneDesc"
+            classImage="cardTwoImg"
+            image={cardTwoImg}
+          />
+          <CardOne
+            Heading="Lorem Ipsum Therapy"
+            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            button="Lorem Ipsum Text"
+            descClass="cardOneDesc"
+            classImage="cardTwoImg"
+            image={cardTwoImg}
+          />
+          <CardOne
+            Heading="Lorem Ipsum Therapy"
+            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            button="Lorem Ipsum Text"
+            descClass="cardOneDesc"
+            classImage="cardTwoImg"
+            image={cardTwoImg}
+          />
+
+          {/* <div className="gridTwoLeft">
             <h1>Lorem Ipsum Therapy</h1>
             <p>
               Lorem Ipsum is simply dummy of printing and typesetting industry.g
@@ -62,7 +81,7 @@ const HomeGrid = () => {
             </p>
             <button>Lorem Ipsum text</button>
             <img src={gridTwo} alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

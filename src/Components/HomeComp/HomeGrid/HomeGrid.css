@@ -1,8 +1,5 @@
 .homeGrid {
-    width: 88%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    /* height: 100%; */
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -37,47 +34,13 @@
     column-gap: 20px;
 }
 
-.gridOneLeft {
-    width: 100%;
-    height: 300px;
-    border-radius: 12px;
-    padding: 30px;
-    text-align: left;
-    position: relative;
-    background-color: var(--cardColor);
-}
-
-.gridOneLeft h1 {
-    font-size: 25px;
-    margin-bottom: 25px;
-}
-
-.gridOneLeft p {
-    width: 40%;
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 30px;
-}
-
-.gridOneLeft button {
-    padding: 10px 20px;
-    border: 1px solid #FF7383;
-    background-color: transparent;
-    border-radius: 20px;
-    margin-top: 20px;
-}
-
-.gridOneLeft img {
-    /* height: 200px; */
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-}
-
-
 .gridOneRight {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     border-radius: 12px;
     padding: 30px;
     text-align: left;
@@ -91,10 +54,10 @@
 }
 
 .gridOneRight p {
-    width: 40%;
+    width: 50%;
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .gridOneRight button {
@@ -102,7 +65,7 @@
     border: 1px solid #FF7383;
     background-color: transparent;
     border-radius: 20px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .gridOneRight img {

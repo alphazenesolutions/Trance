@@ -8,7 +8,7 @@ import { FaStar } from "react-icons/fa";
 const HomePentGrid = () => {
   return (
     <div>
-      <div className="homePentGrid">
+      <div className="homePentGrid sectionWidth">
         <div className="bentoGrid">
           <div className="bentGrid1">
             <h1>Lorem Ipsum</h1>
@@ -16,14 +16,18 @@ const HomePentGrid = () => {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry the printing and typesetting industry.
             </p>
-            <img src={family} alt="" />
+            <div className="bentGridImg">
+              <img src={family} alt="" />
+            </div>
           </div>
           <div className="bentGrid2">
-            <h1>Lorem Ipsum</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry the printing and typesetting industry.
-            </p>
+            <div className="">
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry the printing and typesetting industry.
+              </p>
+            </div>
             <div className="bentGrid2Icon">
               <FaStar />
               <FaStar />
@@ -38,14 +42,18 @@ const HomePentGrid = () => {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry the printing and typesetting industry.
             </p>
-            <img src={family} alt="" />
+            <div className="bentGridImg">
+              <img src={family} alt="" />
+            </div>
           </div>
           <div className="bentGrid4">
-            <h1>Lorem Ipsum</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry the printing and typesetting industry.
-            </p>
+            <div className="">
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry the printing and typesetting industry.
+              </p>
+            </div>
             <div className="bentGrid2Icon">
               <FaStar />
               <FaStar />
@@ -77,15 +85,19 @@ const HomePentGrid = () => {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry the printing and typesetting industry.
               </p>
-              <img src={family} alt="" />
+              <div className="bentGridImg">
+                <img src={family} alt="" />
+              </div>
             </div>
           </div>
           <div className="bentGrid7">
-            <h1>Lorem Ipsum</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry the printing and typesetting industry.
-            </p>
+            <div className="">
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry the printing and typesetting industry.
+              </p>
+            </div>
             <div className="bentGrid2Icon">
               <FaStar />
               <FaStar />
@@ -95,12 +107,13 @@ const HomePentGrid = () => {
             </div>
           </div>
           <div className="bentGrid8">
-            {" "}
-            <h1>Lorem Ipsum</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry the printing and typesetting industry.
-            </p>
+            <div className="">
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry the printing and typesetting industry.
+              </p>
+            </div>
             <div className="bentGrid2Icon">
               <FaStar />
               <FaStar />

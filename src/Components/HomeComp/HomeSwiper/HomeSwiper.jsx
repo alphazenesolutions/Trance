@@ -6,19 +6,13 @@ import { Pagination } from "swiper/modules";
 import "./HomeSwiper.css";
 import family from "../../../assests/swiper.png";
 import { FaPlayCircle } from "react-icons/fa";
+import Heading from "../../Reusable/Heading/Heading";
 
 const HomeSwiper = () => {
   return (
     <div>
-      <div className="homeSwiper">
-        <div className="homeSwiperHead">
-          <h1>Lorem Ipsum Text</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley.
-          </p>
-        </div>
+      <div className="homeSwiper sectionWidth">
+        <Heading />
         <div className="">
           <Swiper
             spaceBetween={30}

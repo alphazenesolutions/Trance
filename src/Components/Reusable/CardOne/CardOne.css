@@ -1,0 +1,52 @@
+.cardOne {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    background-color: var(--cardColor);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cardOne h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.cardOnePara {
+    width: 50%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardOneDesc {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardOne button {
+    padding: 10px 15px;
+    font-weight: 600;
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.cardOneImg {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.cardTwoImg {
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

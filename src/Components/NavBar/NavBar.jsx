@@ -12,7 +12,7 @@ const NavBar = () => {
       <div className="navBar">
         <img src={logo} alt="" />
         <div className="menu">
-          <div className="menu1">
+          <div className="menuItems">
             {isSelect == "home" && <div className="dot"></div>}
             <p
               className={
@@ -24,7 +24,7 @@ const NavBar = () => {
               Home
             </p>
           </div>
-          <div className="menu1">
+          <div className="menuItems">
             {isSelect == "about" && <div className="dot"></div>}
             <p
               className={
@@ -36,7 +36,7 @@ const NavBar = () => {
               About Us
             </p>
           </div>
-          <div className="menu1">
+          <div className="menuItems">
             {isSelect == "blog" && <div className="dot"></div>}
             <p
               className={
