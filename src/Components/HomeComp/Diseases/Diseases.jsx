@@ -57,7 +57,7 @@ const Diseases = () => {
                     : "diseaseTabInactive"
                 }
               >
-                {isSelected1 == "tab3" && <div id="tab1" className="dot"></div>}
+                {isSelected1 == "tab3" && <div id="tab3" className="dot"></div>}
                 Lorem ipsum
               </h2>
             </div>
