@@ -40,7 +40,7 @@ const Diseases = () => {
                 id="tab2"
                 onClick={selectHandler}
                 className={
-                  isSelected1 == "tab2"
+                  isSelected == "tab2"
                     ? "diseaseTabActive"
                     : "diseaseTabInactive"
                 }
