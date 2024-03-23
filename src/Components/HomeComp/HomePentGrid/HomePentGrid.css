@@ -79,7 +79,8 @@
 .bentGrid2 p {
 
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .bentGrid2Icon {
@@ -146,8 +147,9 @@
 .bentGrid4 p {
 
     font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 
 /* bentGrid5 */
@@ -171,8 +173,9 @@
 .bentGrid5 p {
     font-size: 16px;
     font-family: var(--primaryFont);
-    font-weight: 500;
-    margin-top: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* margin-bottom: 10px; */
 }
 
 /* bentGrid6 */
@@ -200,7 +203,7 @@
     /* width: 76%; */
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     line-height: 1.5;
     padding: 0px 20px;
 }
@@ -311,7 +314,9 @@
 .bentGrid7 p {
 
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.5;
 
 }
 
@@ -340,7 +345,8 @@
 .bentGrid8 p {
 
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.5;
     margin-bottom: 10px;
-    line-height: 20px;
+    /* line-height: 20px; */
 }
