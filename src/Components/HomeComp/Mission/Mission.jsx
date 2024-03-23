@@ -97,12 +97,9 @@ const Mission = () => {
           </div>
           <div className="homeExpandOneBody ourMissionExpandBody">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley.Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500.
+              “At Trance, were pioneering a mental health revolution, offering
+              unwavering support and empowering individuals to conquer their
+              challenges and thrive.”
             </p>
           </div>
         </div>
@@ -115,12 +112,8 @@ const Mission = () => {
           </div>
           <div className="homeExpandOneBody ourVisionExpandBody">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley.Lorem
-              Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500.
+              “Trance aims to revolutionize mental health, building a global
+              industry where all services unite to redefine holistic wellness.”
             </p>
           </div>
         </div>

@@ -10,19 +10,22 @@ const HomeGrid = () => {
   return (
     <div>
       <div className="homeGrid sectionWidth">
-        <Heading />
+        <Heading
+          Head="Personalized Therapy Services Just For You"
+          desc="“Unlock your potential with our tailored therapy services. Our compassionate counselors provide personalized support, guiding you through lifes challenges and transition. Whether it’s improving relationships or navigating personal growth, were here to empower you on your journey to greater well-being.”"
+        />
         <div className="gridOne">
           <CardOne
-            Heading="Lorem Ipsum Therapy"
-            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            Heading="Individual therapy"
+            description="Provides individualized help and direction to explore feelings, manage mental health issues, and create a support system in a private and encouraging setting."
             button="Lorem Ipsum Text"
             descClass="cardOnePara"
             classImage="cardOneImg"
             image={cardOneImg}
           />
           <CardOne
-            Heading="Lorem Ipsum Therapy"
-            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            Heading="Couple therapy"
+            description="Improve communication, settle arguments, and create greater connections in your relationship with our skilled couple therapy sessions. Find a way to restore understanding and communication now."
             button="Lorem Ipsum Text"
             descClass="cardOnePara"
             classImage="cardOneImg"
@@ -31,24 +34,24 @@ const HomeGrid = () => {
         </div>
         <div className="gridTwo">
           <CardOne
-            Heading="Lorem Ipsum Therapy"
-            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            Heading="Family counseling"
+            description="Overcomes obstacles, enhances relationships, and promotes better communication for resilient, peacefulness and improved well-being."
             button="Lorem Ipsum Text"
             descClass="cardOneDesc"
             classImage="cardTwoImg"
             image={cardTwoImg}
           />
           <CardOne
-            Heading="Lorem Ipsum Therapy"
-            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            Heading="Students counseling"
+            description="Provides private support for various struggles, addressing stress, relationships, academic performance and personal growth."
             button="Lorem Ipsum Text"
             descClass="cardOneDesc"
             classImage="cardTwoImg"
             image={cardTwoImg}
           />
           <CardOne
-            Heading="Lorem Ipsum Therapy"
-            description="Lorem Ipsum is simply dummy of printing and typesetting industry.g and typesetting industry. Lorem Ipsum has been."
+            Heading="Organizational counseling"
+            description="Support for businesses, improving work environment, productivity, conflict, encouraging resilience, and implementing positive change for success."
             button="Lorem Ipsum Text"
             descClass="cardOneDesc"
             classImage="cardTwoImg"

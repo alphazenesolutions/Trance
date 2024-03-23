@@ -17,8 +17,8 @@ const HomeBanner = () => {
             <div className="homebannerFlexLeftInner">
               <div className="homebannerFlexLeftHead">
                 <h1>
-                  Lorem Ipsum is <span className="headSpan">simply dummy</span>
-                  text of the printing industry.
+                  HELLO AND WELCOME TO THE{" "}
+                  <span className="headSpan">TRANCE</span>
                 </h1>
               </div>
               <p>
