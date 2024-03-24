@@ -61,6 +61,139 @@
     border: 1px solid var(--white);
 }
 
+/* overlay */
+.scheduleOverlay {
+    position: fixed;
+    width: 25%;
+    border-radius: 15px;
+    height: 95%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(150%, 3%);
+    background-color: white;
+    z-index: 11;
+    cursor: pointer;
+
+}
+
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.scheduleOverlayHead {
+    background-color: var(--primaryColor);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.scheduleOverlayHead h1 {
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.scheduleOverlayHeadLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconClose {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.scheduleOverlayBody {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+.scheduleOverlayBody img {
+    height: 60px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scheduleOverlayBodyContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.scheduleOverlayBodyContent h2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    opacity: 0.5;
+}
+
+.scheduleOverlayBodyContent input {
+    width: 100%;
+    padding: 4px;
+}
+
+.scheduleOverlayBodyContent select {
+    width: 100%;
+    padding: 4px;
+}
+
+.scheduleOverlayBodyContent textarea {
+    padding: 4px;
+    width: 100%;
+}
+
+.scheduleOverlayBody button {
+    width: 100%;
+    padding: 8px;
+    background-color: var(--primaryColor);
+    color: var(--white);
+    border-radius: 8px;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+
+}
+
+.NavIcons {
+    font-size: 22px;
+    color: var(--primaryColor);
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 @media only screen and (max-width: 600px) {
     /* .navBar {
             display: none;
@@ -84,5 +217,19 @@
     .navMobLogo {
         font-size: 25px;
         font-weight: 900;
+    }
+
+    .scheduleOverlay {
+        width: 90%;
+        height: 100%;
+        transform: translate(6%, 0%);
+    }
+
+    .scheduleOverlayBody img {
+        height: 40px;
+    }
+
+    .scheduleOverlayBodyContent input {
+        padding: 6px;
     }
 }

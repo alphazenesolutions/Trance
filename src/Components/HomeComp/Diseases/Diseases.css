@@ -1,4 +1,6 @@
-.diseaseContainer {}
+.diseaseContainer {
+    margin-top: 50px;
+}
 
 .diseaseContainerHead {
     width: 62%;
@@ -182,7 +184,7 @@
         bottom: 0;
         transform: translate(9%, 50%);
         background-color: var(--white);
-        z-index: 5;
+        z-index: 10;
         cursor: pointer;
         padding: 10px 15px;
     }
