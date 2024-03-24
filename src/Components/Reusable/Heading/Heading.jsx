@@ -6,7 +6,7 @@ const Heading = (props) => {
     <div>
       <div className="heading">
         <h1>{props.Head}</h1>
-        <p>{props.desc}</p>
+        <p className={props.descClass}>{props.desc}</p>
       </div>
     </div>
   );

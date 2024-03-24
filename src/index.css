@@ -23,6 +23,7 @@ code {
   --primaryColor: #29505E;
   --primaryFont: "nunito";
   --secondayFont: "Source Serif 4, serif";
+  --tertiaryFont: "Quicksand", sans-serif;
   --secondaryColor: #f4f4f5;
   --diseaseColor: #FAFAFA;
   --borderColor: #dbdbdb;
@@ -48,6 +49,7 @@ code {
   font-weight: 900;
   font-style: normal;
 }
+
 
 .hidden {
   overflow: hidden;

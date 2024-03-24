@@ -12,7 +12,11 @@ const HomeSwiper = () => {
   return (
     <div>
       <div className="homeSwiper sectionWidth">
-        <Heading />
+        <Heading
+          Head="Explore why mental health matters!"
+          desc="The power of therapy! And how it can change lives!"
+          descClass="marginBottom0"
+        />
         <div className="">
           <Swiper
             spaceBetween={30}
