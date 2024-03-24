@@ -27,6 +27,7 @@ const Home = () => {
         <HomeGrid />
         <TestimonialComp />
         <Diseases />
+        <GuideLine />
       </div>
     </div>
   );

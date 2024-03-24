@@ -124,6 +124,7 @@
 
     .diseaseContainerHead h1 {
         font-size: 30px;
+        font-family: var(--tertiaryFont);
     }
 
     .diseaseContainerHead p {
@@ -219,5 +220,6 @@
         position: absolute;
         top: 0%;
         right: -2%;
+        color: var(--primaryColor);
     }
 }

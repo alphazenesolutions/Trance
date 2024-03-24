@@ -32,3 +32,27 @@
     line-height: 2;
     font-weight: 400;
 }
+
+.guideLineContainerFlexLeft {}
+
+@media only screen and (max-width: 600px) {
+    .guideLineContainerFlexLeft {
+        display: none;
+    }
+
+    .guideLineContainerFlexRight {
+        padding-top: 0%;
+        margin-top: 25px;
+    }
+
+    .guideLineContainerFlexRight h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-family: var(--tertiaryFont);
+    }
+
+    .guideLineContainerFlexRight p {
+        font-size: 14px;
+    }
+
+}
