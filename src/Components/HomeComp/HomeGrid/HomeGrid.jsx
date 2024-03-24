@@ -36,7 +36,7 @@ const HomeGrid = () => {
           <CardOne
             Heading="Family counseling"
             description="Overcomes obstacles, enhances relationships, and promotes better communication for resilient, peacefulness and improved well-being."
-            button="Lorem Ipsum Text"
+            button="Enquire Now"
             descClass="cardOneDesc"
             classImage="cardTwoImg"
             image={cardTwoImg}
@@ -44,7 +44,7 @@ const HomeGrid = () => {
           <CardOne
             Heading="Students counseling"
             description="Provides private support for various struggles, addressing stress, relationships, academic performance and personal growth."
-            button="Lorem Ipsum Text"
+            button="Enquire Now"
             descClass="cardOneDesc"
             classImage="cardTwoImg"
             image={cardTwoImg}
@@ -52,7 +52,7 @@ const HomeGrid = () => {
           <CardOne
             Heading="Organizational counseling"
             description="Support for businesses, improving work environment, productivity, conflict, encouraging resilience, and implementing positive change for success."
-            button="Lorem Ipsum Text"
+            button="Enquire Now"
             descClass="cardOneDesc"
             classImage="cardTwoImg"
             image={cardTwoImg}

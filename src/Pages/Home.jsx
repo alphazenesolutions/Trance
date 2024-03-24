@@ -23,6 +23,7 @@ const Home = () => {
       <div className="mobileHandler">
         <HomeMobileBanner />
         <HomeSwiper />
+        <HomeGrid />
       </div>
     </div>
   );

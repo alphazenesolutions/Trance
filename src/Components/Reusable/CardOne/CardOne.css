@@ -15,18 +15,22 @@
 .cardOne h1 {
     font-size: 25px;
     margin-bottom: 25px;
+    font-weight: 500;
+    font-family: var(--secondayFont);
 }
 
 .cardOnePara {
     width: 50%;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
+    font-family: var(--tertiaryFont);
 }
 
 .cardOneDesc {
     width: 100%;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
+    font-family: var(--tertiaryFont);
 }
 
 .cardOne button {
@@ -49,4 +53,24 @@
     position: absolute;
     right: 0px;
     bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardTwoImg {
+        height: 120px;
+    }
+
+    .cardOne h1 {
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .cardOne button {
+        padding: 6px 15px;
+    }
+
+    .cardOne {
+        padding: 20px;
+        height: 250px;
+    }
 }

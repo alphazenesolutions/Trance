@@ -197,6 +197,11 @@
 
 @media only screen and (max-width: 600px) {
     .gridOne {
+        display: none;
+    }
+
+    .gridTwo {
         grid-template-columns: repeat(1, 1fr);
+        row-gap: 15px;
     }
 }
