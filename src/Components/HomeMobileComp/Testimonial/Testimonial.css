@@ -1,0 +1,22 @@
+.TestimonialCompBody {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--cardColor);
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.TestimonialCompBody h1 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--secondayFont);
+    margin-bottom: 15px;
+}
+
+.TestimonialCompBody p {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 500;
+    font-family: var(--tertiaryFont);
+    margin-bottom: 15px;
+}

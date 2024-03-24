@@ -50,6 +50,9 @@ code {
   font-style: normal;
 }
 
+.marginTop50 {
+  margin-top: 50px;
+}
 
 .hidden {
   overflow: hidden;

@@ -7,6 +7,7 @@ import HomePentGrid from "../Components/HomeComp/HomePentGrid/HomePentGrid";
 import GuideLine from "../Components/HomeComp/GuideLine/GuideLine";
 import Diseases from "../Components/HomeComp/Diseases/Diseases";
 import HomeMobileBanner from "../Components/HomeMobileComp/HomeMobileBanner/HomeMobileBanner";
+import TestimonialComp from "../Components/HomeMobileComp/Testimonial/TestimonialComp";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         <HomeMobileBanner />
         <HomeSwiper />
         <HomeGrid />
+        <TestimonialComp />
       </div>
     </div>
   );
