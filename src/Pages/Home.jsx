@@ -26,6 +26,7 @@ const Home = () => {
         <HomeSwiper />
         <HomeGrid />
         <TestimonialComp />
+        <Diseases />
       </div>
     </div>
   );
