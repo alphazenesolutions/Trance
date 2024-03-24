@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomeBanner.css";
 import video from "../../../assests/Group 793.png";
-import play from "../../../assests/play.svg";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";

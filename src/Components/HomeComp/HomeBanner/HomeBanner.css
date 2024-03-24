@@ -155,3 +155,76 @@
     font-size: 19px;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .homeMobileBanner {
+        /* overflow: hidden; */
+    }
+
+    .homeMobileBannerHead {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .homeMobileBannerHead h1 {
+        font-size: 30px;
+        font-family: var(--primaryFont);
+        font-weight: 900;
+    }
+
+    .homeMobileBannerVedio {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    .homeMobileBannerVedio Img {
+        width: 65%;
+    }
+
+    .homeMobileBannerVedio p {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: start;
+        margin-top: 25px;
+    }
+
+    .pause {
+        font-size: 30px;
+        bottom: 25%;
+        right: 38%;
+    }
+
+    .SocialMob {
+        width: 13%;
+        height: 45%;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        color: var(--white);
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px 10px;
+        background-color: var(--primaryColor);
+        position: absolute;
+        right: -6%;
+        bottom: 22%;
+    }
+
+    .certificate {
+        margin-top: 25px;
+        text-align: start;
+    }
+
+    .certificate h2 {
+        margin-bottom: 15px;
+    }
+
+    .certificateImg img {
+        height: 30px;
+    }
+}

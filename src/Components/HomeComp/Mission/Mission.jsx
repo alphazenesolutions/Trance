@@ -56,7 +56,7 @@ const Mission = () => {
         // end: "10% -5%",
         // start: "5% 5%",
         // end: "15% 5%",
-        markers: true,
+        // markers: true,
         scrub: 2,
       },
     });
@@ -71,7 +71,7 @@ const Mission = () => {
         // end: "10% -5%",
         // start: "5% 5%",
         // end: "15% 5%",
-        markers: true,
+        // markers: true,
         scrub: 2,
       },
     });

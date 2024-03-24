@@ -49,6 +49,10 @@ code {
   font-style: normal;
 }
 
+.hidden {
+  overflow: hidden;
+}
+
 
 .webHandler {
   display: block !important;

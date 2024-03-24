@@ -10,47 +10,49 @@ const NavBar = () => {
   };
   return (
     <div>
-      <div className="navBar webHandler">
-        <img src={logo} alt="" />
-        <div className="menu">
-          <div className="menuItems">
-            {isSelect == "home" && <div className="dot"></div>}
-            <p
-              className={
-                isSelect == "home" ? "menuItemActive" : "menuItemDisable"
-              }
-              onClick={navHandler}
-              id="home"
-            >
-              Home
-            </p>
+      <div className="webHandler">
+        <div className="navBar">
+          <img src={logo} alt="" />
+          <div className="menu">
+            <div className="menuItems">
+              {isSelect == "home" && <div className="dot"></div>}
+              <p
+                className={
+                  isSelect == "home" ? "menuItemActive" : "menuItemDisable"
+                }
+                onClick={navHandler}
+                id="home"
+              >
+                Home
+              </p>
+            </div>
+            <div className="menuItems">
+              {isSelect == "about" && <div className="dot"></div>}
+              <p
+                className={
+                  isSelect == "about" ? "menuItemActive" : "menuItemDisable"
+                }
+                onClick={navHandler}
+                id="about"
+              >
+                About Us
+              </p>
+            </div>
+            <div className="menuItems">
+              {isSelect == "blog" && <div className="dot"></div>}
+              <p
+                className={
+                  isSelect == "blog" ? "menuItemActive" : "menuItemDisable"
+                }
+                onClick={navHandler}
+                id="blog"
+              >
+                Blogs
+              </p>
+            </div>
           </div>
-          <div className="menuItems">
-            {isSelect == "about" && <div className="dot"></div>}
-            <p
-              className={
-                isSelect == "about" ? "menuItemActive" : "menuItemDisable"
-              }
-              onClick={navHandler}
-              id="about"
-            >
-              About Us
-            </p>
-          </div>
-          <div className="menuItems">
-            {isSelect == "blog" && <div className="dot"></div>}
-            <p
-              className={
-                isSelect == "blog" ? "menuItemActive" : "menuItemDisable"
-              }
-              onClick={navHandler}
-              id="blog"
-            >
-              Blogs
-            </p>
-          </div>
+          <button>Contact Us</button>
         </div>
-        <button>Contact Us</button>
       </div>
       <div className="navBarMob mobileHandler sectionWidth">
         <div className="navBarMobBody">

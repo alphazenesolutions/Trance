@@ -6,6 +6,7 @@ import HomeExpand from "../Components/HomeComp/Mission/Mission";
 import HomePentGrid from "../Components/HomeComp/HomePentGrid/HomePentGrid";
 import GuideLine from "../Components/HomeComp/GuideLine/GuideLine";
 import Diseases from "../Components/HomeComp/Diseases/Diseases";
+import HomeMobileBanner from "../Components/HomeMobileComp/HomeMobileBanner/HomeMobileBanner";
 
 const Home = () => {
   return (
@@ -19,7 +20,9 @@ const Home = () => {
         <Diseases />
         <GuideLine />
       </div>
-      <div className="mobileHandler"></div>
+      <div className="mobileHandler">
+        <HomeMobileBanner />
+      </div>
     </div>
   );
 };
