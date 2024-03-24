@@ -10,13 +10,16 @@ import Diseases from "../Components/HomeComp/Diseases/Diseases";
 const Home = () => {
   return (
     <div>
-      <HomeBanner />
-      <HomeSwiper />
-      <HomeGrid />
-      <HomeExpand />
-      <HomePentGrid />
-      <Diseases />
-      <GuideLine />
+      <div className="webHandler">
+        <HomeBanner />
+        <HomeSwiper />
+        <HomeGrid />
+        <HomeExpand />
+        <HomePentGrid />
+        <Diseases />
+        <GuideLine />
+      </div>
+      <div className="mobileHandler"></div>
     </div>
   );
 };

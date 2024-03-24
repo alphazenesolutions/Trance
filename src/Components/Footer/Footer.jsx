@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <div className="footer sectionWidth">
+      <div className="footer sectionWidth webHandler">
         <div className="innerFooter">
           <div className="foot1">
             <h1>Visit us in Coimbatore.</h1>

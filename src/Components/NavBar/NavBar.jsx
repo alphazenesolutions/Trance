@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import logo from "../../assests/Screenshot_2024-02-21_at_20.20 1.svg";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const NavBar = () => {
   const [isSelect, setSelect] = useState("home");
@@ -9,7 +10,7 @@ const NavBar = () => {
   };
   return (
     <div>
-      <div className="navBar">
+      <div className="navBar webHandler">
         <img src={logo} alt="" />
         <div className="menu">
           <div className="menuItems">
@@ -50,6 +51,12 @@ const NavBar = () => {
           </div>
         </div>
         <button>Contact Us</button>
+      </div>
+      <div className="navBarMob mobileHandler sectionWidth">
+        <div className="navBarMobBody">
+          <img src={logo} alt="" />
+          <HiOutlineMenuAlt3 className="navMobLogo" />
+        </div>
       </div>
     </div>
   );

@@ -48,3 +48,28 @@ code {
   font-weight: 900;
   font-style: normal;
 }
+
+
+.webHandler {
+  display: block !important;
+}
+
+.mobileHandler {
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .webHandler {
+    display: none !important;
+  }
+
+  .mobileHandler {
+    display: block !important;
+  }
+
+  .sectionWidth {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
