@@ -574,6 +574,39 @@ const Diseases = () => {
             {isSelected1 == "Trauma" && <h1>Trauma</h1>}{" "}
             {isSelected1 == "Sexual" && <h1>Sexual well-being</h1>}{" "}
             {isSelected1 == "Chronic" && <h1>Chronic pain management</h1>}
+            {isSelected1 == "Work" && <h1>Work-related stress</h1>}
+            {isSelected1 == "failure" && <h1>Fear of failure</h1>}
+            {isSelected1 == "Family" && <h1>Family difficulties</h1>}
+            {isSelected1 == "Marital" && <h1>Marital counseling</h1>}
+            {isSelected1 == "ConflictResolution" && (
+              <h1>Conflict Resolution</h1>
+            )}
+            {isSelected1 == "Trustissues" && <h1>Trust issues</h1>}
+            {isSelected1 == "Relationshipissues" && (
+              <h1>Relationship issues</h1>
+            )}
+            {isSelected1 == "Communicationissues" && (
+              <h1>Communication issues</h1>
+            )}
+            {isSelected1 == "PremaritalCounseling" && (
+              <h1>Pre-marital Counseling</h1>
+            )}
+            {isSelected1 == "Maritalcounseling" && <h1>Marital counseling</h1>}
+            {isSelected1 == "Compulsiveshopping" && (
+              <h1>Compulsive shopping</h1>
+            )}
+            {isSelected1 == "Affairs" && <h1>Affairs & infidelity</h1>}
+            {isSelected1 == "Social" && <h1>Social withdrawal</h1>}
+            {isSelected1 == "Overthinking" && <h1>Overthinking</h1>}
+            {isSelected1 == "Existentialcrises" && <h1>Existential crises</h1>}
+            {isSelected1 == "Loneliness" && <h1>Loneliness</h1>}
+            {isSelected1 == "Low" && <h1>Low self-esteem</h1>}
+            {isSelected1 == "dysmorphic" && <h1>Body dysmorphic disorder</h1>}
+            {isSelected1 == "Compulsive" && <h1>Compulsive lying</h1>}
+            {isSelected1 == "concentration" && (
+              <h1>Lack of concentration and motivation</h1>
+            )}
+            {isSelected1 == "Procrastination" && <h1>Procrastination</h1>}
             {isSelected1 == "Stress" && (
               <p>
                 Stress is the body's natural response to pressure or demands,
@@ -903,6 +936,339 @@ const Diseases = () => {
                 treatment to manage the condition effectively.
               </p>
             )}
+            {isSelected1 == "Work" && (
+              <p>
+                Work-related stress is a common phenomenon experienced by
+                individuals in various occupations, stemming from factors such
+                as heavy workloads, tight deadlines, and interpersonal
+                conflicts. One example of work-related stress is the pressure
+                felt by a retail worker during the holiday season, where
+                increased customer demands and the need to maintain stock levels
+                can lead to heightened levels of tension and anxiety. This
+                stress can manifest in physical symptoms such as headaches or
+                fatigue, as well as emotional strain, impacting both
+                productivity and overall well-being. Addressing work-related
+                stress is crucial for fostering a healthier work environment and
+                ensuring the mental and physical well-being of employees
+              </p>
+            )}
+            {isSelected1 == "failure" && (
+              <p>
+                Fear of failure can be weakening, preventing individuals from
+                pursuing their goals and dreams. Take, for instance, the fear of
+                learning a new language. Imagine someone wanting to travel
+                abroad but hesitating to start learning because they're afraid
+                of not being fluent or making mistakes. This fear holds them
+                back from experiencing new cultures and connecting with people
+                from around the world. Our professionals provide resources and
+                support to help individuals overcome their fear of failure,
+                empowering them to take risks and achieve their full potential.
+              </p>
+            )}
+            {isSelected1 == "Family" && (
+              <p>
+                Family difficulties can often arise unexpectedly, challenging
+                the bonds that tie us together. Consider a family where both
+                parents work long hours, leaving little time for quality family
+                interaction. Their teenage daughter feels neglected and seeks
+                attention by acting out at school. This leads to tension and
+                arguments at home as the parents struggle to balance work and
+                family responsibilities while addressing their daughter's
+                emotional needs. Such conflicts, though seemingly small, can
+                significantly impact familial relationships and require
+                patience, understanding, and effective communication to resolve.
+                On our web page, we offer guidance and support for families
+                navigating through such challenges, providing resources and
+                strategies to foster healthier dynamics and stronger connections
+                within the family.
+              </p>
+            )}
+            {isSelected1 == "Marital" && (
+              <p>
+                Marital counseling offers a supportive environment for couples
+                to navigate challenges and enhance their relationship. Through
+                open communication and professional guidance, couples can
+                address issues such as communication breakdowns, trust issues,
+                or differing expectations. For instance, a common scenario might
+                involve a couple struggling with conflicting schedules causing
+                frequent arguments about spending quality time together. In
+                counseling, they can learn effective time-management strategies,
+                explore underlying emotions, and develop a deeper understanding
+                of each other's needs. Ultimately, marital counseling equips
+                couples with the tools to strengthen their bond, foster greater
+                intimacy, and navigate future conflicts constructively.
+              </p>
+            )}
+            {isSelected1 == "ConflictResolution" && (
+              <p>
+                Conflict resolution is the process of addressing disagreements
+                or disputes in a constructive manner to achieve a mutually
+                beneficial outcome. One simple example of conflict resolution is
+                when two coworkers have different opinions on how to approach a
+                project. Instead of arguing or ignoring each other's ideas, they
+                engage in open communication, actively listen to each other's
+                perspectives, and work together to find a compromise that
+                integrates the best aspects of both approaches. By effectively
+                resolving conflicts, teams can enhance productivity, foster
+                stronger relationships, and create a positive work environment.
+                Discover effective conflict resolution strategies and techniques
+                to promote harmony and collaboration in your workplace.
+              </p>
+            )}
+            {isSelected1 == "Trustissues" && (
+              <p>
+                Trust issues can significantly impact relationships, whether
+                personal or professional. Consider a scenario where a friend
+                promises to meet you for coffee but consistently cancels at the
+                last minute without explanation. Over time, you begin to doubt
+                their reliability and sincerity, leading to strained trust.
+                Similarly, in business, if a company fails to deliver on its
+                promises or breaks confidentiality, clients may develop trust
+                issues, impacting the long-term success of the partnership.
+                Building and maintaining trust is crucial for fostering healthy
+                connections and achieving mutual goals.
+              </p>
+            )}
+            {isSelected1 == "Relationshipissues" && (
+              <p>
+                Relationship issues can arise from various factors, including
+                communication breakdowns, trust issues, and differing
+                expectations. For instance, a common problem is when one partner
+                feels neglected because the other spends excessive time on their
+                phone during shared activities, such as dinner dates. This can
+                lead to feelings of offence and frustration, highlighting the
+                importance of open communication and quality time in maintaining
+                a healthy relationship. we provide insights, advice, and
+                resources to help couples address such challenges and strengthen
+                their bonds.
+              </p>
+            )}
+            {isSelected1 == "Communicationissues" && (
+              <p>
+                Communication issues can significantly delay productivity and
+                collaboration within any setting. For example, imagine a
+                scenario where a team is working on a project, but due to
+                unclear instructions from the team leader, some members
+                misunderstand their tasks. As a result, valuable time is wasted,
+                and the project's progress is incomplete. Effective
+                communication is vital to prevent such misunderstandings and
+                ensure a smooth workflow. So highlight the importance of clear
+                and direct communication to avoid confusion and foster
+                meaningful connections. In our counseling, we provide insights
+                and solutions to overcome communication barriers, empowering
+                individuals to express themselves accurately and understand
+                others effectively.
+              </p>
+            )}
+            {isSelected1 == "PremaritalCounseling" && (
+              <p>
+                Pre-marital counseling is a valuable opportunity for couples to
+                strengthen their relationship and lay a solid foundation for a
+                successful marriage. Through guided sessions with a trained
+                counselor, couples explore various aspects of their
+                relationship, including communication, conflict resolution,
+                financial management, and future goals. One example of the
+                benefits of pre-marital counseling involves a couple discovering
+                differing views on finances. During counseling sessions, they
+                learn effective ways to communicate about money matters, set
+                shared financial goals, and develop a budgeting plan that suits
+                both their needs and values. This newfound understanding and
+                teamwork not only help them guide financial challenges but also
+                build a stronger bond as they get into their journey together.
+              </p>
+            )}
+            {isSelected1 == "Maritalcounseling" && (
+              <p>
+                Marital counseling offers a supportive environment for couples
+                to navigate challenges and enhance their relationship. Through
+                open communication and professional guidance, couples can
+                address issues such as communication breakdowns, trust issues,
+                or differing expectations. For instance, a common scenario might
+                involve a couple struggling with conflicting schedules causing
+                frequent arguments about spending quality time together. In
+                counseling, they can learn effective time-management strategies,
+                explore underlying emotions, and develop a deeper understanding
+                of each other's needs. Ultimately, marital counseling equips
+                couples with the tools to strengthen their bond, foster greater
+                intimacy, and navigate future conflicts constructively.
+              </p>
+            )}
+            {isSelected1 == "Compulsiveshopping" && (
+              <p>
+                Compulsive shopping, also known as compulsive buying disorder
+                (CBD), is a behavioral addiction characterized by an
+                uncontrollable urge to shop excessively, often resulting in
+                financial, emotional, and social consequences. Individuals
+                troubled with this disorder experience a compulsive need to
+                purchase items, regardless of their necessity or financial
+                means. For example, someone with CBD might find themselves
+                buying multiple pairs of shoes they don't need every time they
+                pass by a shoe store, even if they're already struggling with
+                credit card debt. This compulsive behavior can lead to feelings
+                of guilt, anxiety, and shame, as well as difficult relationships
+                and financial instability. Recognizing and addressing compulsive
+                shopping behaviors is crucial for individuals seeking to regain
+                control over their lives and finances.
+              </p>
+            )}
+            {isSelected1 == "Affairs" && (
+              <p>
+                Affairs and infidelity can extremely impact relationships,
+                causing mental trauma and trust issues. Imagine a scenario where
+                a married couple, let's call them John and Sarah, have been
+                together for years. Despite their commitment, John begins to
+                engage in secret conversations with a co-worker. This seemingly
+                innocent exchange soon increases into flirting chat, leading to
+                secret meetings outside of work. Sarah eventually discovers the
+                truth, destroying their marriage and smashing the trust they
+                once shared. This example underscores the destructive nature of
+                affairs and the importance of open communication in
+                relationships. If you're directing the complexities of
+                infidelity, seeking support and guidance can help you navigate
+                this challenging area and rebuild trust.
+              </p>
+            )}
+            {isSelected1 == "Social" && (
+              <p>
+                Social withdrawal is a behavior characterized by an individual's
+                deliberate avoidance of social interactions or situations. It
+                often manifests as spending excessive time alone, avoiding
+                social gatherings, or withdrawing from previously enjoyed
+                activities. For example, a girl, once an outgoing teenager,
+                began spending most of her time in her room, avoiding family
+                outings and declining invitations from friends to hang out. This
+                withdrawal from social interactions can lead to feelings of
+                loneliness, depression, and may indicate underlying emotional or
+                mental health concerns. If you or someone you know is
+                experiencing social withdrawal, seeking support from friends,
+                family, or mental health professionals can be crucial in
+                addressing the underlying issues and reconnecting with others.
+              </p>
+            )}
+            {isSelected1 == "Overthinking" && (
+              <p>
+                Overthinking can be like getting stuck in a loop of thoughts,
+                unable to find an exit. Imagine you're trying to decide what to
+                wear to a casual gathering with friends. Instead of quickly
+                picking out an outfit, you find yourself endlessly choosing the
+                nuances of each choice. Should you go for comfort or style? Will
+                your friends think you're trying too hard or not enough? Before
+                you know it, hours have passed, and you're still staring at your
+                closet, paralyzed by the multitude of possibilities.
+                Overthinking can turn simple decisions into complex puzzles,
+                draining your mental energy and stealing precious time. Learn to
+                quiet the noise of overthinking and embrace the simplicity of
+                living in the moment.
+              </p>
+            )}
+            {isSelected1 == "Existentialcrises" && (
+              <p>
+                An existential crisis occurs when an individual struggles with
+                questions about the meaning, purpose, or value of their
+                existence. Imagine waking up one day and questioning the
+                significance of your job. You might wonder if your career truly
+                aligns with your passions and goals, or if it's purely a means
+                to an end. This type of internal struggle is a prime example of
+                an existential crisis. Whether prompted by major life events or
+                simply a period of deep self-examination, these moments of
+                existential questioning can be both unsettling and
+                transformative. Explore our resources to navigate through these
+                challenging times and find clarity together with uncertainty.
+              </p>
+            )}
+            {isSelected1 == "Loneliness" && (
+              <p>
+                Loneliness is a universal human experience that overcomes
+                borders and cultures. It is the feeling of isolation and
+                disconnection, even when surrounded by others. Imagine sitting
+                in a crowded room, yet feeling like you're the only one there,
+                with no one to share your thoughts or experiences. This is
+                loneliness. It can manifest in various forms, from the absence
+                of close relationships to a lack of meaningful connections.
+                Loneliness doesn't discriminate based on age, gender, or social
+                status; it can affect anyone at any time. Addressing loneliness
+                involves fostering genuine connections, both with oneself and
+                with others, to create a sense of belonging and fulfilment.
+              </p>
+            )}
+            {isSelected1 == "dysmorphic" && (
+              <p>
+                Body Dysmorphic Disorder (BDD) is a mental health condition
+                characterized by an obsessive focus on perceived flaws or
+                defects in one's appearance, which are often minor or even
+                imagined. Individuals with BDD may spend excessive amounts of
+                time scanning their appearance, engaging in rituals such as
+                frequent mirror-checking or seeking reassurance, and may avoid
+                social situations or activities due to distress about their
+                perceived flaws. For example, someone with BDD might spend hours
+                each day examining their nose, convinced it is too large or
+                misshapen, despite others seeing no issue with it. This disorder
+                can severely impact daily functioning and quality of life, often
+                requiring professional intervention and support to manage
+                effectively.
+              </p>
+            )}
+            {isSelected1 == "Compulsive" && (
+              <p>
+                Compulsive lying, also known as pathological lying, is a
+                condition where individuals habitually construct or exaggerate
+                details without a clear motive. This behavior often stems from
+                deep-seated psychological issues, such as low self-esteem or a
+                need for attention or approval. An easy example of compulsive
+                lying could be someone consistently brightening up their
+                achievements or experiences to impress others. Despite the lack
+                of real benefits, the individual feels compelled to falsify the
+                truth, leading to difficult relationships and a loss of
+                trustworthiness. Understanding the underlying reasons behind
+                compulsive lying is essential for providing support and guidance
+                to those affected by this behavior.
+              </p>
+            )}
+            {isSelected1 == "concentration" && (
+              <p>
+                Are you struggling to stay focused and motivated? You're not
+                alone. Many people find themselves facing challenges with
+                concentration and motivation, making it difficult to accomplish
+                tasks and reach their goals. Picture this: you sit down to work
+                on an important project, but your mind keeps wandering to other
+                things. You find yourself scrolling through social media instead
+                of making progress. This lack of concentration and motivation
+                can leave you feeling frustrated and unproductive. But fear not!
+                With the right strategies and support, you can overcome these
+                obstacles and regain control of your focus and drive. Let us
+                help you unlock your full potential and achieve success.
+              </p>
+            )}
+            {isSelected1 == "Procrastination" && (
+              <p>
+                Procrastination, the art of delaying tasks, is a common
+                difficulty many face in daily life. It often involves putting
+                off important activities in favour of more pleasurable or less
+                demanding ones, leading to stress and decreased productivity.
+                For instance, imagine having to write an essay due tomorrow, but
+                instead of starting right away, you find yourself scrolling
+                through social media or watching videos online, only to realize
+                hours later that you haven't made any progress. This tendency to
+                postpone tasks can be harmful, but with awareness and effective
+                strategies, it's possible to overcome procrastination and
+                achieve greater efficiency and success.
+              </p>
+            )}{" "}
+            {isSelected1 == "Low" && (
+              <p>
+                Low self-esteem can profoundly impact individuals, manifesting
+                feelings of absence and a lack of confidence in oneself. For
+                example, imagine someone who constantly doubts their abilities
+                despite receiving praise and understanding from others. They
+                might dismiss compliments, believing they don't deserve them, or
+                avoid challenges due to fear of failure. Such individuals may
+                struggle to assert themselves in social situations, often
+                feeling unworthy of attention or affection. Low self-esteem can
+                delay personal growth and destroy one's overall quality of life,
+                highlighting the importance of addressing and overcoming these
+                negative perceptions.
+              </p>
+            )}
           </div>
         </div>
       </div>
@@ -936,6 +1302,43 @@ const Diseases = () => {
               {isSelected1 == "Trauma" && <h1>Trauma</h1>}{" "}
               {isSelected1 == "Sexual" && <h1>Sexual well-being</h1>}{" "}
               {isSelected1 == "Chronic" && <h1>Chronic pain management</h1>}
+              {isSelected1 == "Work" && <h1>Work-related stress</h1>}
+              {isSelected1 == "failure" && <h1>Fear of failure</h1>}
+              {isSelected1 == "Family" && <h1>Family difficulties</h1>}
+              {isSelected1 == "Marital" && <h1>Marital counseling</h1>}
+              {isSelected1 == "ConflictResolution" && (
+                <h1>Conflict Resolution</h1>
+              )}
+              {isSelected1 == "Trustissues" && <h1>Trust issues</h1>}
+              {isSelected1 == "Relationshipissues" && (
+                <h1>Relationship issues</h1>
+              )}
+              {isSelected1 == "Communicationissues" && (
+                <h1>Communication issues</h1>
+              )}
+              {isSelected1 == "PremaritalCounseling" && (
+                <h1>Pre-marital Counseling</h1>
+              )}
+              {isSelected1 == "Maritalcounseling" && (
+                <h1>Marital counseling</h1>
+              )}
+              {isSelected1 == "Compulsiveshopping" && (
+                <h1>Compulsive shopping</h1>
+              )}
+              {isSelected1 == "Affairs" && <h1>Affairs & infidelity</h1>}
+              {isSelected1 == "Social" && <h1>Social withdrawal</h1>}
+              {isSelected1 == "Overthinking" && <h1>Overthinking</h1>}
+              {isSelected1 == "Existentialcrises" && (
+                <h1>Existential crises</h1>
+              )}
+              {isSelected1 == "Loneliness" && <h1>Loneliness</h1>}
+              {isSelected1 == "Low" && <h1>Low self-esteem</h1>}
+              {isSelected1 == "dysmorphic" && <h1>Body dysmorphic disorder</h1>}
+              {isSelected1 == "Compulsive" && <h1>Compulsive lying</h1>}
+              {isSelected1 == "concentration" && (
+                <h1>Lack of concentration and motivation</h1>
+              )}
+              {isSelected1 == "Procrastination" && <h1>Procrastination</h1>}
               <IoMdCloseCircle onClick={closeOverlay} className="close" />
             </div>
             <div className="diseaseOverlayBody">
@@ -1277,6 +1680,350 @@ const Diseases = () => {
                   feelings. It's important to recognize the symptoms of SAD and
                   seek appropriate support and treatment to manage the condition
                   effectively.
+                </p>
+              )}
+              {isSelected1 == "Work" && (
+                <p>
+                  Work-related stress is a common phenomenon experienced by
+                  individuals in various occupations, stemming from factors such
+                  as heavy workloads, tight deadlines, and interpersonal
+                  conflicts. One example of work-related stress is the pressure
+                  felt by a retail worker during the holiday season, where
+                  increased customer demands and the need to maintain stock
+                  levels can lead to heightened levels of tension and anxiety.
+                  This stress can manifest in physical symptoms such as
+                  headaches or fatigue, as well as emotional strain, impacting
+                  both productivity and overall well-being. Addressing
+                  work-related stress is crucial for fostering a healthier work
+                  environment and ensuring the mental and physical well-being of
+                  employees
+                </p>
+              )}
+              {isSelected1 == "failure" && (
+                <p>
+                  Fear of failure can be weakening, preventing individuals from
+                  pursuing their goals and dreams. Take, for instance, the fear
+                  of learning a new language. Imagine someone wanting to travel
+                  abroad but hesitating to start learning because they're afraid
+                  of not being fluent or making mistakes. This fear holds them
+                  back from experiencing new cultures and connecting with people
+                  from around the world. Our professionals provide resources and
+                  support to help individuals overcome their fear of failure,
+                  empowering them to take risks and achieve their full
+                  potential.
+                </p>
+              )}
+              {isSelected1 == "Family" && (
+                <p>
+                  Family difficulties can often arise unexpectedly, challenging
+                  the bonds that tie us together. Consider a family where both
+                  parents work long hours, leaving little time for quality
+                  family interaction. Their teenage daughter feels neglected and
+                  seeks attention by acting out at school. This leads to tension
+                  and arguments at home as the parents struggle to balance work
+                  and family responsibilities while addressing their daughter's
+                  emotional needs. Such conflicts, though seemingly small, can
+                  significantly impact familial relationships and require
+                  patience, understanding, and effective communication to
+                  resolve. On our web page, we offer guidance and support for
+                  families navigating through such challenges, providing
+                  resources and strategies to foster healthier dynamics and
+                  stronger connections within the family.
+                </p>
+              )}
+              {isSelected1 == "Marital" && (
+                <p>
+                  Marital counseling offers a supportive environment for couples
+                  to navigate challenges and enhance their relationship. Through
+                  open communication and professional guidance, couples can
+                  address issues such as communication breakdowns, trust issues,
+                  or differing expectations. For instance, a common scenario
+                  might involve a couple struggling with conflicting schedules
+                  causing frequent arguments about spending quality time
+                  together. In counseling, they can learn effective
+                  time-management strategies, explore underlying emotions, and
+                  develop a deeper understanding of each other's needs.
+                  Ultimately, marital counseling equips couples with the tools
+                  to strengthen their bond, foster greater intimacy, and
+                  navigate future conflicts constructively.
+                </p>
+              )}
+              {isSelected1 == "ConflictResolution" && (
+                <p>
+                  Conflict resolution is the process of addressing disagreements
+                  or disputes in a constructive manner to achieve a mutually
+                  beneficial outcome. One simple example of conflict resolution
+                  is when two coworkers have different opinions on how to
+                  approach a project. Instead of arguing or ignoring each
+                  other's ideas, they engage in open communication, actively
+                  listen to each other's perspectives, and work together to find
+                  a compromise that integrates the best aspects of both
+                  approaches. By effectively resolving conflicts, teams can
+                  enhance productivity, foster stronger relationships, and
+                  create a positive work environment. Discover effective
+                  conflict resolution strategies and techniques to promote
+                  harmony and collaboration in your workplace.
+                </p>
+              )}
+              {isSelected1 == "Trustissues" && (
+                <p>
+                  Trust issues can significantly impact relationships, whether
+                  personal or professional. Consider a scenario where a friend
+                  promises to meet you for coffee but consistently cancels at
+                  the last minute without explanation. Over time, you begin to
+                  doubt their reliability and sincerity, leading to strained
+                  trust. Similarly, in business, if a company fails to deliver
+                  on its promises or breaks confidentiality, clients may develop
+                  trust issues, impacting the long-term success of the
+                  partnership. Building and maintaining trust is crucial for
+                  fostering healthy connections and achieving mutual goals.
+                </p>
+              )}
+              {isSelected1 == "Relationshipissues" && (
+                <p>
+                  Relationship issues can arise from various factors, including
+                  communication breakdowns, trust issues, and differing
+                  expectations. For instance, a common problem is when one
+                  partner feels neglected because the other spends excessive
+                  time on their phone during shared activities, such as dinner
+                  dates. This can lead to feelings of offence and frustration,
+                  highlighting the importance of open communication and quality
+                  time in maintaining a healthy relationship. we provide
+                  insights, advice, and resources to help couples address such
+                  challenges and strengthen their bonds.
+                </p>
+              )}
+              {isSelected1 == "Communicationissues" && (
+                <p>
+                  Communication issues can significantly delay productivity and
+                  collaboration within any setting. For example, imagine a
+                  scenario where a team is working on a project, but due to
+                  unclear instructions from the team leader, some members
+                  misunderstand their tasks. As a result, valuable time is
+                  wasted, and the project's progress is incomplete. Effective
+                  communication is vital to prevent such misunderstandings and
+                  ensure a smooth workflow. So highlight the importance of clear
+                  and direct communication to avoid confusion and foster
+                  meaningful connections. In our counseling, we provide insights
+                  and solutions to overcome communication barriers, empowering
+                  individuals to express themselves accurately and understand
+                  others effectively.
+                </p>
+              )}
+              {isSelected1 == "PremaritalCounseling" && (
+                <p>
+                  Pre-marital counseling is a valuable opportunity for couples
+                  to strengthen their relationship and lay a solid foundation
+                  for a successful marriage. Through guided sessions with a
+                  trained counselor, couples explore various aspects of their
+                  relationship, including communication, conflict resolution,
+                  financial management, and future goals. One example of the
+                  benefits of pre-marital counseling involves a couple
+                  discovering differing views on finances. During counseling
+                  sessions, they learn effective ways to communicate about money
+                  matters, set shared financial goals, and develop a budgeting
+                  plan that suits both their needs and values. This newfound
+                  understanding and teamwork not only help them guide financial
+                  challenges but also build a stronger bond as they get into
+                  their journey together.
+                </p>
+              )}
+              {isSelected1 == "Maritalcounseling" && (
+                <p>
+                  Marital counseling offers a supportive environment for couples
+                  to navigate challenges and enhance their relationship. Through
+                  open communication and professional guidance, couples can
+                  address issues such as communication breakdowns, trust issues,
+                  or differing expectations. For instance, a common scenario
+                  might involve a couple struggling with conflicting schedules
+                  causing frequent arguments about spending quality time
+                  together. In counseling, they can learn effective
+                  time-management strategies, explore underlying emotions, and
+                  develop a deeper understanding of each other's needs.
+                  Ultimately, marital counseling equips couples with the tools
+                  to strengthen their bond, foster greater intimacy, and
+                  navigate future conflicts constructively.
+                </p>
+              )}
+              {isSelected1 == "Compulsiveshopping" && (
+                <p>
+                  Compulsive shopping, also known as compulsive buying disorder
+                  (CBD), is a behavioral addiction characterized by an
+                  uncontrollable urge to shop excessively, often resulting in
+                  financial, emotional, and social consequences. Individuals
+                  troubled with this disorder experience a compulsive need to
+                  purchase items, regardless of their necessity or financial
+                  means. For example, someone with CBD might find themselves
+                  buying multiple pairs of shoes they don't need every time they
+                  pass by a shoe store, even if they're already struggling with
+                  credit card debt. This compulsive behavior can lead to
+                  feelings of guilt, anxiety, and shame, as well as difficult
+                  relationships and financial instability. Recognizing and
+                  addressing compulsive shopping behaviors is crucial for
+                  individuals seeking to regain control over their lives and
+                  finances.
+                </p>
+              )}
+              {isSelected1 == "Affairs" && (
+                <p>
+                  Affairs and infidelity can extremely impact relationships,
+                  causing mental trauma and trust issues. Imagine a scenario
+                  where a married couple, let's call them John and Sarah, have
+                  been together for years. Despite their commitment, John begins
+                  to engage in secret conversations with a co-worker. This
+                  seemingly innocent exchange soon increases into flirting chat,
+                  leading to secret meetings outside of work. Sarah eventually
+                  discovers the truth, destroying their marriage and smashing
+                  the trust they once shared. This example underscores the
+                  destructive nature of affairs and the importance of open
+                  communication in relationships. If you're directing the
+                  complexities of infidelity, seeking support and guidance can
+                  help you navigate this challenging area and rebuild trust.
+                </p>
+              )}
+              {isSelected1 == "Social" && (
+                <p>
+                  Social withdrawal is a behavior characterized by an
+                  individual's deliberate avoidance of social interactions or
+                  situations. It often manifests as spending excessive time
+                  alone, avoiding social gatherings, or withdrawing from
+                  previously enjoyed activities. For example, a girl, once an
+                  outgoing teenager, began spending most of her time in her
+                  room, avoiding family outings and declining invitations from
+                  friends to hang out. This withdrawal from social interactions
+                  can lead to feelings of loneliness, depression, and may
+                  indicate underlying emotional or mental health concerns. If
+                  you or someone you know is experiencing social withdrawal,
+                  seeking support from friends, family, or mental health
+                  professionals can be crucial in addressing the underlying
+                  issues and reconnecting with others.
+                </p>
+              )}
+              {isSelected1 == "Overthinking" && (
+                <p>
+                  Overthinking can be like getting stuck in a loop of thoughts,
+                  unable to find an exit. Imagine you're trying to decide what
+                  to wear to a casual gathering with friends. Instead of quickly
+                  picking out an outfit, you find yourself endlessly choosing
+                  the nuances of each choice. Should you go for comfort or
+                  style? Will your friends think you're trying too hard or not
+                  enough? Before you know it, hours have passed, and you're
+                  still staring at your closet, paralyzed by the multitude of
+                  possibilities. Overthinking can turn simple decisions into
+                  complex puzzles, draining your mental energy and stealing
+                  precious time. Learn to quiet the noise of overthinking and
+                  embrace the simplicity of living in the moment.
+                </p>
+              )}
+              {isSelected1 == "Existentialcrises" && (
+                <p>
+                  An existential crisis occurs when an individual struggles with
+                  questions about the meaning, purpose, or value of their
+                  existence. Imagine waking up one day and questioning the
+                  significance of your job. You might wonder if your career
+                  truly aligns with your passions and goals, or if it's purely a
+                  means to an end. This type of internal struggle is a prime
+                  example of an existential crisis. Whether prompted by major
+                  life events or simply a period of deep self-examination, these
+                  moments of existential questioning can be both unsettling and
+                  transformative. Explore our resources to navigate through
+                  these challenging times and find clarity together with
+                  uncertainty.
+                </p>
+              )}
+              {isSelected1 == "Loneliness" && (
+                <p>
+                  Loneliness is a universal human experience that overcomes
+                  borders and cultures. It is the feeling of isolation and
+                  disconnection, even when surrounded by others. Imagine sitting
+                  in a crowded room, yet feeling like you're the only one there,
+                  with no one to share your thoughts or experiences. This is
+                  loneliness. It can manifest in various forms, from the absence
+                  of close relationships to a lack of meaningful connections.
+                  Loneliness doesn't discriminate based on age, gender, or
+                  social status; it can affect anyone at any time. Addressing
+                  loneliness involves fostering genuine connections, both with
+                  oneself and with others, to create a sense of belonging and
+                  fulfilment.
+                </p>
+              )}
+              {isSelected1 == "dysmorphic" && (
+                <p>
+                  Body Dysmorphic Disorder (BDD) is a mental health condition
+                  characterized by an obsessive focus on perceived flaws or
+                  defects in one's appearance, which are often minor or even
+                  imagined. Individuals with BDD may spend excessive amounts of
+                  time scanning their appearance, engaging in rituals such as
+                  frequent mirror-checking or seeking reassurance, and may avoid
+                  social situations or activities due to distress about their
+                  perceived flaws. For example, someone with BDD might spend
+                  hours each day examining their nose, convinced it is too large
+                  or misshapen, despite others seeing no issue with it. This
+                  disorder can severely impact daily functioning and quality of
+                  life, often requiring professional intervention and support to
+                  manage effectively.
+                </p>
+              )}
+              {isSelected1 == "Compulsive" && (
+                <p>
+                  Compulsive lying, also known as pathological lying, is a
+                  condition where individuals habitually construct or exaggerate
+                  details without a clear motive. This behavior often stems from
+                  deep-seated psychological issues, such as low self-esteem or a
+                  need for attention or approval. An easy example of compulsive
+                  lying could be someone consistently brightening up their
+                  achievements or experiences to impress others. Despite the
+                  lack of real benefits, the individual feels compelled to
+                  falsify the truth, leading to difficult relationships and a
+                  loss of trustworthiness. Understanding the underlying reasons
+                  behind compulsive lying is essential for providing support and
+                  guidance to those affected by this behavior.
+                </p>
+              )}
+              {isSelected1 == "concentration" && (
+                <p>
+                  Are you struggling to stay focused and motivated? You're not
+                  alone. Many people find themselves facing challenges with
+                  concentration and motivation, making it difficult to
+                  accomplish tasks and reach their goals. Picture this: you sit
+                  down to work on an important project, but your mind keeps
+                  wandering to other things. You find yourself scrolling through
+                  social media instead of making progress. This lack of
+                  concentration and motivation can leave you feeling frustrated
+                  and unproductive. But fear not! With the right strategies and
+                  support, you can overcome these obstacles and regain control
+                  of your focus and drive. Let us help you unlock your full
+                  potential and achieve success.
+                </p>
+              )}
+              {isSelected1 == "Procrastination" && (
+                <p>
+                  Procrastination, the art of delaying tasks, is a common
+                  difficulty many face in daily life. It often involves putting
+                  off important activities in favour of more pleasurable or less
+                  demanding ones, leading to stress and decreased productivity.
+                  For instance, imagine having to write an essay due tomorrow,
+                  but instead of starting right away, you find yourself
+                  scrolling through social media or watching videos online, only
+                  to realize hours later that you haven't made any progress.
+                  This tendency to postpone tasks can be harmful, but with
+                  awareness and effective strategies, it's possible to overcome
+                  procrastination and achieve greater efficiency and success.
+                </p>
+              )}{" "}
+              {isSelected1 == "Low" && (
+                <p>
+                  Low self-esteem can profoundly impact individuals, manifesting
+                  feelings of absence and a lack of confidence in oneself. For
+                  example, imagine someone who constantly doubts their abilities
+                  despite receiving praise and understanding from others. They
+                  might dismiss compliments, believing they don't deserve them,
+                  or avoid challenges due to fear of failure. Such individuals
+                  may struggle to assert themselves in social situations, often
+                  feeling unworthy of attention or affection. Low self-esteem
+                  can delay personal growth and destroy one's overall quality of
+                  life, highlighting the importance of addressing and overcoming
+                  these negative perceptions.
                 </p>
               )}
             </div>
