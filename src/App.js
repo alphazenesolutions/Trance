@@ -19,7 +19,10 @@ function App() {
   return (
     <Provider store={Store}>
       <div className="App ">
-        {isPopUp == "call" && <div onClick={closeOverlay} id="overlay"></div>}
+        {isPopUp == "call" ||
+          (isPopUp == "mobNav" && (
+            <div onClick={closeOverlay} id="overlay"></div>
+          ))}
         <Routing />
       </div>
     </Provider>

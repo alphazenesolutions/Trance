@@ -10,6 +10,11 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { IoMdCloseCircle } from "react-icons/io";
+import { GoHomeFill } from "react-icons/go";
+import { BsFillGrid1X2Fill } from "react-icons/bs";
+import { MdEditCalendar } from "react-icons/md";
+import { MdConnectWithoutContact } from "react-icons/md";
 
 const NavBar = () => {
   const dispatch = useDispatch();
@@ -93,7 +98,11 @@ const NavBar = () => {
       <div className="navBarMob mobileHandler sectionWidth">
         <div className="navBarMobBody">
           <img src={logo} alt="" />
-          <HiOutlineMenuAlt3 className="navMobLogo" />
+          <HiOutlineMenuAlt3
+            id="mobNav"
+            onClick={ScheduleCallHandler}
+            className="navMobLogo"
+          />
         </div>
       </div>
       {isPopUp == "call" && (
@@ -162,7 +171,87 @@ const NavBar = () => {
           </div>
         </>
       )}
-      {/* {isPopUp == "call" && <div onClick={closeOverlay} id="overlay"></div>} */}
+      {isPopUp == "call" && <div onClick={closeOverlay} id="overlay"></div>}
+      {isPopUp == "mobNav" && (
+        <>
+          <div className="mobNavbar">
+            <div className="mobNavbarTop">
+              <div className="mobNavbarImg">
+                <img src={logo} alt="" />
+                <IoMdCloseCircle
+                  onClick={ScheduleCallHandler}
+                  className="mobNavbarIcon"
+                />
+              </div>
+              <div className="mobNavbarMenu">
+                <h5
+                  id="home"
+                  onClick={navHandler}
+                  className={
+                    isSelect == "home"
+                      ? "mobNavbarMenuActive"
+                      : "mobNavbarMenuInactive"
+                  }
+                >
+                  <GoHomeFill className="mobMenuIcon" />
+                  Home
+                </h5>
+                <h5
+                  id="about"
+                  onClick={navHandler}
+                  className={
+                    isSelect == "about"
+                      ? "mobNavbarMenuActive"
+                      : "mobNavbarMenuInactive"
+                  }
+                >
+                  <BsFillGrid1X2Fill className="mobMenuIcon" />
+                  About
+                </h5>
+                <h5
+                  id="blog"
+                  onClick={navHandler}
+                  className={
+                    isSelect == "blog"
+                      ? "mobNavbarMenuActive"
+                      : "mobNavbarMenuInactive"
+                  }
+                >
+                  <MdEditCalendar className="mobMenuIcon" />
+                  Blog
+                </h5>
+                <h5
+                  id="contact"
+                  onClick={navHandler}
+                  className={
+                    isSelect == "contact"
+                      ? "mobNavbarMenuActive"
+                      : "mobNavbarMenuInactive"
+                  }
+                >
+                  <MdConnectWithoutContact className="mobMenuIcon" />
+                  Contact Us
+                </h5>
+              </div>
+            </div>
+            <div className="mobNavbarBottom">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing text dummy of
+                the printin.
+              </p>
+              <button id="call" onClick={ScheduleCallHandler} className="">
+                schedule a call !
+              </button>
+              <div className="NavIcons">
+                <FaFacebookF />
+                <FaYoutube />
+                <FaLinkedinIn />
+                <FaInstagram />
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };

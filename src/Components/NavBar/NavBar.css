@@ -232,4 +232,110 @@
     .scheduleOverlayBodyContent input {
         padding: 6px;
     }
+
+    .mobNavbar {
+        position: fixed;
+        width: 70%;
+        border-radius: 15px;
+        height: 100%;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        z-index: 11;
+        cursor: pointer;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobNavbarTop {
+        width: 100%;
+    }
+
+    .mobNavbarImg {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .mobNavbarImg img {
+        height: 65px;
+    }
+
+    .mobNavbarIcon {
+        font-size: 25px;
+        color: var(--primaryColor);
+    }
+
+
+    .mobNavbarMenu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .mobNavbarMenuInactive {
+        width: 100%;
+        border-radius: 8px;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px;
+        margin-bottom: 5px;
+        color: var(--primaryColor);
+    }
+
+    .mobNavbarMenuActive {
+        width: 100%;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px;
+        margin-bottom: 5px;
+        color: var(--primaryColor);
+        background-color: var(--borderColor);
+    }
+
+    .mobMenuIcon {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .mobNavbarBottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .mobNavbarBottom p {
+        font-size: 14px;
+        opacity: 0.5;
+        text-align: justify;
+    }
+
+    .mobNavbarBottom button {
+        width: 100%;
+        padding: 8px;
+        background-color: var(--primaryColor);
+        color: var(--white);
+        border-radius: 8px;
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 25px;
+
+    }
 }
