@@ -157,7 +157,7 @@ const NavBar = () => {
                 </select>
               </div>
               <div className="scheduleOverlayBodyContent">
-                <h2>Preferred timing</h2>
+                <h2>What’s your problem</h2>
                 <textarea name="" id="" cols="30" rows="4"></textarea>
               </div>
               <button>schedule a call !</button>
