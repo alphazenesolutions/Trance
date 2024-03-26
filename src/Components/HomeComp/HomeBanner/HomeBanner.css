@@ -81,9 +81,9 @@
 }
 
 .homebannerFlexLeftInner {
-    width: 80%;
+    width: 85%;
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
     height: 100%;
     display: flex;
     flex-direction: column;
